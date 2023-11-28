@@ -1,0 +1,15 @@
+0 : ctrl p : pen
+1 : ctrl l : pointer
+2 : ctrl i : highlighter
+3 : ctrl e : eraser
+4 : ctrl m : hide all write
+5 : move cursor / one index finger
+6 : hold right click + move cursor / indexfinger + midle finger
+7 : slide right / right palm
+8 : slide left / left palm
+9 : none
+
+
+
+
+
