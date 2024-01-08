@@ -77,7 +77,7 @@ def action(predictionIndex):
             is_action_active[5] = True
             print("index 5")
             pyautogui.mouseUp()
-        pyautogui.moveTo(x_1, y_1, duration=0.01, _pause=False)    
+        pyautogui.moveTo(x_1, y_1, duration=0.01, _pause = False)    
         cv2.circle(frame,(x__, y__), 10, (255, 0, 0), 3)
 
 
@@ -89,7 +89,7 @@ def action(predictionIndex):
             is_action_active[6] = True
             print("index 6")
             pyautogui.mouseDown()
-        pyautogui.moveTo(x_1, y_1, duration=0.01, _pause=False)            
+        pyautogui.moveTo(x_1, y_1, duration=0.01, _pause = False)            
         cv2.circle(frame,(x__, y__), 10, (255, 0, 0), 3)
 
 
@@ -144,7 +144,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 
 
-hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence= 0.5, max_num_hands = 1)
+hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence= 0.8, max_num_hands = 1)
 labels_dict = {0: 'pen', 1: 'pointer', 2: 'highlighter', 3:'eraser', 4: 'hide', 5: 'move cursor', 6: 'select cursor', 7: 'right palm', 8: 'left palm', 9:"none right", 10:"none left"}
 fps_start_time = time.time()
 fps_frame_count = 0
